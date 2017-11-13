@@ -1,0 +1,14 @@
+{
+  "name": "sample.angular",
+  "version": "1.0.0",
+  "description": "angular tour of heroes sample with docker",
+  "author": {
+    "name": "mohammad.nomani"
+  },
+  "scripts": {
+    "clean": "rimraf  Dist/**/*.* Source/**/*.js Source/**/*.js.map",
+    "start": "npm run clean && webpack-dev-server --config ./Configurations/WebPack/webpack.dev.server.config.js",
+    "build": "npm run clean && webpack --config ./Configurations/WebPack/webpack.app.config.js --progress --profile",
+    "test": "karma start ./Configurations/Karma/karma.config.js"
+  }
+}
