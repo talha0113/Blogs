@@ -1,0 +1,11 @@
+{
+  "name": "e2e-jest",
+  "version": "1.0.0",
+  "description": "",
+  "author": {
+    "name": "mohammad.nomani"
+  },
+  "scripts": {
+    "test": "jest --c ./Configurations/Jest/jest.config.json"
+  }
+}

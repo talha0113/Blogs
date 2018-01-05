@@ -1,0 +1,12 @@
+﻿version: "3.3"
+services:
+  compile:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      - SUDO_USER=Puppeteer  
+    command: 
+      - /bin/sh
+      - -c
+      - npm test
