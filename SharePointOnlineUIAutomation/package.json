@@ -1,0 +1,25 @@
+{
+  "name": "puppeteer.image",
+  "version": "0.13.0",
+  "description": "Development Image for Puppeteer",
+  "author": {
+    "name": "mohammad.nomani"
+  },
+  "scripts": {
+  },
+  "dependencies": {
+    "@types/puppeteer": "^0.13.9",
+    "puppeteer": "^0.13.0",
+
+    "@types/jest": "^22.0.0",
+    "jest": "^22.0.4",
+    "jest-trx-results-processor": "^0.0.6",
+    "ts-jest": "^22.0.0",
+
+    "typescript": "^2.6.2",
+
+    "mkdirp": "^0.5.1",
+    "os": "^0.1.1",
+    "rimraf": "^2.6.2"
+  }
+}
