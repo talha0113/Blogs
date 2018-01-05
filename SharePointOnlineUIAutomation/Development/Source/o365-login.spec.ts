@@ -20,7 +20,7 @@ describe('Office 365', () => {
         let value: boolean = await page.evaluate(() => {
             let isExist: boolean = false;
             Array.from(document.querySelectorAll(".ms-listlink")).forEach((element: Element, index: number) => {
-                if (element.getAttribute("href").indexOf("Default.aspx") != -1) {
+                if (element.getAttribute("href").indexOf("default") != -1) {
                     isExist = true;
                 }
             });
